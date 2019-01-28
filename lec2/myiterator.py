@@ -13,7 +13,7 @@ class MyIterator():
     return self
  
   def __next__(self):
-    """ Return the next element in the list  """
+    """ Returns the next element in the list  """
     if self.idx < len(self.L):
       item = self.L[self.idx]
       self.idx += 1
